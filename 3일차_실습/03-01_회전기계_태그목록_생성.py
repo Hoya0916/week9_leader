@@ -1,0 +1,33 @@
+"""Create a practice inventory matching the Day 3 motor/fan mapping exercise."""
+
+from pathlib import Path
+
+import pandas as pd
+
+
+OUT = Path(__file__).resolve().parent
+ROWS = [
+    ("MTR01_VIB_ACC", "모터", "진동 가속도", "g", "구동측 베어링 하우징", 60, "O"),
+    ("MTR01_VIB_H", "모터", "수평 진동 속도 RMS", "mm/s", "구동측 베어링 하우징 수평", 60, "O"),
+    ("MTR01_CURRENT", "모터", "전류", "A", "모터 제어반", 60, "O"),
+    ("MTR01_TEMP", "모터", "권선 온도", "degC", "고정자 권선", 60, "O"),
+    ("MTR01_RPM", "모터", "회전수", "rpm", "모터 축", 60, "O"),
+    ("FAN01_VIB_H", "팬", "수평 진동 속도 RMS", "mm/s", "구동측 베어링 하우징 수평", 600, "O"),
+    ("FAN01_CURRENT", "팬", "전류", "A", "팬 모터 제어반", 600, "O"),
+    ("FAN01_TEMP", "팬", "베어링 온도", "degC", "구동측 베어링 하우징", 600, "O"),
+    ("FAN01_RPM", "팬", "회전수", "rpm", "팬 축", 600, "X"),
+    ("FAN01_VIB_V", "팬", "수직 진동 속도 RMS", "mm/s", "구동측 베어링 하우징 수직", 600, "X"),
+    ("FAN01_VIB_A", "팬", "축방향 진동 속도 RMS", "mm/s", "구동측 베어링 하우징 축방향", 600, "X"),
+]
+
+
+def main() -> None:
+    columns = ["tag", "설비", "물리량", "단위", "측정위치", "sampling_sec", "보유여부"]
+    pd.DataFrame(ROWS, columns=columns).to_csv(
+        OUT / "03-01_회전기계_태그목록_실습.csv", index=False, encoding="utf-8-sig"
+    )
+    print("생성 완료: 모터·팬 태그 11개")
+
+
+if __name__ == "__main__":
+    main()

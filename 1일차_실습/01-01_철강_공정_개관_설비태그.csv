@@ -1,0 +1,25 @@
+tag,unit,sample_value,note
+PL1-SNT-FAN-01-VIB,mm/s,2.8,소결 주배풍기 진동
+PL1-SNT-FAN-01-CUR,A,412.5,소결 주배풍기 전류
+PL1-SNT-CNV-02-SPD,m/s,1.6,소결광 이송 컨베이어 속도
+PL1-CKO-PMP-01-PRS,bar,6.2,코크스로 냉각수 펌프 토출압
+PL1-CKO-FUR-01-TMP,degC,1042.0,코크스로 연소실 온도
+PL1-BF-BLW-01-FLW,Nm3/min,5200.0,고로 송풍기 풍량
+PL1-BF-BLW-01-VIB,mm/s,3.4,고로 송풍기 진동
+PL1-BF-FUR-01-PRS,kPa,210.0,고로 노정압
+PL1-BF-FUR-01-TMP,degC,1180.0,고로 열풍 온도
+PL1-BOF-CRN-01-CUR,A,305.0,전로 장입 크레인 전류
+PL1-BOF-FUR-02-TMP,degC,1650.0,전로 배가스 온도
+PL1-CCM-PMP-01-PRS,bar,138.0,연주 유압 펌프 토출압
+PL1-CCM-MOT-03-CUR,A,96.4,연주 몰드 진동장치 모터 전류
+PL1-CCM-ROL-02-TMP,degC,62.0,연주 냉각대 롤 베어링 온도
+PL2-HSM-FUR-01-TMP,degC,1235.0,열연 가열로 균열대 온도
+PL2-HSM-MOT-01-CUR,A,1840.0,열연 조압연 주모터 전류
+PL2-HSM-PMP-02-PRS,bar,205.0,열연 두께제어 유압 펌프 토출압
+PL2-HSM-ROL-01-VIB,mm/s,4.1,열연 마무리압연 롤 베어링 진동
+PL2-CRM-MOT-02-CUR,A,760.0,냉연 압연기 주모터 전류
+PL2-CRM-FUR-02-TMP,degC,720.0,연속소둔로 가열대 온도
+PL2-CRM-HEX-01-FLW,m3/h,340.0,냉연 열교환기 냉각수 유량
+PL2-UTL-CMP-01-PRS,bar,7.1,공장 압축공기 압축기 토출압
+PL2-UTL-PMP-03-FLW,m3/h,1250.0,공업용수 펌프 유량
+PL2-UTL-CMP-01-VIB,mm/s,2.2,압축공기 압축기 진동

@@ -1,0 +1,20 @@
+tag,system,physical_qty,unit,reference,circuit_position,sampling_sec
+HYD01_PRESS_PUMP,1번 유압 유닛,압력,bar,게이지압,펌프 토출부,60
+HYD01_PRESS_FILT_IN,1번 유압 유닛,압력,bar,게이지압,필터 전단,60
+HYD01_PRESS_FILT_OUT,1번 유압 유닛,압력,bar,게이지압,필터 후단,60
+HYD01_DP_FILTER,1번 유압 유닛,차압,bar,차압,필터 전후단 계산값,60
+HYD01_FLOW,1번 유압 유닛,유량,L/min,해당없음,펌프 토출 배관,60
+HYD01_OILTEMP,1번 유압 유닛,온도,degC,해당없음,탱크 내부,300
+HYD01_LEVEL,1번 유압 유닛,유면,%,해당없음,탱크 유면계,300
+HYD01_PUMP_CURRENT,1번 유압 유닛,전류,A,해당없음,펌프 제어반,60
+HYD01_VALVE_CMD,1번 유압 유닛,개도,%,해당없음,방향 제어 밸브 지령,60
+HYD01_VALVE_FB,1번 유압 유닛,개도,%,해당없음,방향 제어 밸브 실제,60
+FUR01_Z1_TEMP_L,1번 가열로,온도,degC,해당없음,1존 좌측 열전대,300
+FUR01_Z1_TEMP_R,1번 가열로,온도,degC,해당없음,1존 우측 열전대,300
+FUR01_Z2_TEMP_L,1번 가열로,온도,degC,해당없음,2존 좌측 열전대,300
+FUR01_Z2_TEMP_R,1번 가열로,온도,degC,해당없음,2존 우측 열전대,300
+FUR01_Z3_TEMP_L,1번 가열로,온도,degC,해당없음,3존 좌측 열전대,300
+FUR01_Z3_TEMP_R,1번 가열로,온도,degC,해당없음,3존 우측 열전대,300
+FUR01_EXH_TEMP,1번 가열로,온도,degC,해당없음,배기 덕트 열전대,300
+FUR01_MAT_TEMP,1번 가열로,온도,degC,해당없음,출구 소재 표면 비접촉 센서,60
+FUR01_LINE_SPEED,1번 가열로,속도,m/min,해당없음,라인 구동부,60

@@ -1,0 +1,96 @@
+﻿태그명 용어사전
+
+MTR
+영문: Motor
+의미: 모터
+
+HYD
+영문: Hydraulic
+의미: 유압
+
+FUR
+영문: Furnace
+의미: 가열로
+
+VIB
+영문: Vibration
+의미: 진동
+
+RMS
+영문: Root Mean Square
+의미: 실효값
+
+ACC
+영문: Acceleration
+의미: 가속도
+
+CURRENT
+영문: Current
+의미: 전류
+
+VOLT
+영문: Voltage
+의미: 전압
+
+POWER
+영문: Power
+의미: 전력
+
+TEMP
+영문: Temperature
+의미: 온도
+
+RPM
+영문: Revolutions Per Minute
+의미: 분당 회전수
+
+PRESS
+영문: Pressure
+의미: 압력
+
+DP
+영문: Differential Pressure
+의미: 차압
+
+FLOW
+영문: Flow
+의미: 유량
+
+OILTEMP
+영문: Oil Temperature
+의미: 작동유 온도
+
+H
+영문: Horizontal
+의미: 수평 방향
+
+V
+영문: Vertical
+의미: 수직 방향
+
+A
+영문: Axial
+의미: 축 방향
+
+IN
+영문: Inlet / Input
+의미: 입구·공급측
+
+OUT
+영문: Outlet / Output
+의미: 출구·후단
+
+FILTER
+영문: Filter
+의미: 필터
+
+Z1
+영문: Zone 1
+의미: 1존
+
+Z2
+영문: Zone 2
+의미: 2존
+
+01
+의미: 1호기 또는 1번 설비
